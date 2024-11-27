@@ -118,7 +118,7 @@ def test(model, device, test_loader):
 
 def train_model(num_epochs=2):
 
-    show_images = False
+    show_images = True
     if show_images:
         all_images, all_labels = next(iter(torch.utils.data.DataLoader(trainset, batch_size=len(trainset))))
         indices = random.sample(range(len(all_images)), 5)
