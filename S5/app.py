@@ -118,22 +118,25 @@ def test(model, device, test_loader):
 
 def train_model(num_epochs=2):
 
-    all_images, all_labels = next(iter(torch.utils.data.DataLoader(trainset, batch_size=len(trainset))))
-    indices = random.sample(range(len(all_images)), 5)
+    show_images = False
+    if show_iamges:
+        all_images, all_labels = next(iter(torch.utils.data.DataLoader(trainset, batch_size=len(trainset))))
+        indices = random.sample(range(len(all_images)), 5)
 
-    # Step 4: Display the selected images
-    plt.figure(figsize=(10, 5))
-    for i, idx in enumerate(indices):
-        image, label = all_images[idx], all_labels[idx]
-        plt.subplot(1, 5, i + 1)
-        plt.imshow(image.squeeze(), cmap="gray")
-        plt.title(f"Label: {label.item()}")
-        plt.axis("off")
+        # Step 4: Display the selected images
+        plt.figure(figsize=(10, 5))
+        for i, idx in enumerate(indices):
+            image, label = all_images[idx], all_labels[idx]
+            plt.subplot(1, 5, i + 1)
+            plt.imshow(image.squeeze(), cmap="gray")
+            plt.title(f"Label: {label.item()}")
+            plt.axis("off")
 
-    plt.tight_layout()
-    plt.show(block=False)  # Show the plot without blocking code execution
-    plt.pause(2)  # Pause for 2 seconds
-    plt.close()  # Close the plot window
+        plt.tight_layout()
+        plt.show(block=False)  # Show the plot without blocking code execution
+        plt.pause(2)  # Pause for 2 seconds
+        plt.close()  # Close the plot window
+
 
     for epoch in range(0, num_epochs): #Run for 18 epochs
         train(model, device, trainloader, optimizer, epoch)
