@@ -16,7 +16,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install torch matplotlib torchvision torchsummary pytest
+        pip install torch matplotlib torchvision torchsummary tqdm pytest
 
     #- name: Test with unittest
     #  run: |
