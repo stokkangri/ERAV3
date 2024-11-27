@@ -36,3 +36,10 @@ Additional Notes
 Ensure you have CUDA installed and configured properly to utilize GPU training.
 You may want to add functionality to display model results on random images after training, which can be done by extending the app.py file.
 Feel free to ask if you need any modifications or additional features!
+
+Assignment Notes:
+BASE: Less than 25K parameters used and 95+% accuracy achieved in 1 epoch.
+
+ADVANCED: Image augmentation added.
+
+[![Python application](https://github.com/stokkangri/ERAV3/actions/workflows/python-app.yml/badge.svg)](https://github.com/stokkangri/ERAV3/actions/workflows/python-app.yml)
