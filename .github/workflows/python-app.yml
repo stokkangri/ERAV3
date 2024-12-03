@@ -26,3 +26,7 @@ jobs:
       run: |
         python S5/test.py
 
+    - name: Test with unittest S6 - 1
+      run: |
+        python S6/test_S6.py
+
