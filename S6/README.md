@@ -84,102 +84,107 @@ The model implementation is verified through test cases that check:
 
 Training run log to show accuracy and loss:
 
-epoch=0 loss=0.04691198840737343 batch_id=390: 100%|██████████| 391/391 [00:24<00:00, 15.82it/s] 
+epoch=0 loss=0.01640809141099453 batch_id=468: 100%|██████████| 469/469 [00:30<00:00, 15.44it/s] 
 Evaluating model: Test accuracy
 
-Test set: Average loss: 0.0463, Accuracy: 59099/60000 (98.50%)
+Test set: Average loss: 0.0457, Accuracy: 9852/10000 (98.52%)
 
-epoch=1 loss=0.06381608545780182 batch_id=390: 100%|██████████| 391/391 [00:24<00:00, 15.80it/s]  
+epoch=0 loss=0.05186476185917854 batch_id=468: 100%|██████████| 469/469 [00:30<00:00, 15.53it/s] 
 Evaluating model: Test accuracy
 
-Test set: Average loss: 0.0312, Accuracy: 59419/60000 (99.03%)
+Test set: Average loss: 0.0466, Accuracy: 9846/10000 (98.46%)
 
-epoch=2 loss=0.009553512558341026 batch_id=390: 100%|██████████| 391/391 [00:24<00:00, 15.99it/s] 
+epoch=1 loss=0.031148681417107582 batch_id=468: 100%|██████████| 469/469 [00:30<00:00, 15.43it/s] 
 Evaluating model: Test accuracy
 
-Test set: Average loss: 0.0290, Accuracy: 59440/60000 (99.07%)
+Test set: Average loss: 0.0448, Accuracy: 9847/10000 (98.47%)
 
-epoch=3 loss=0.03585263714194298 batch_id=390: 100%|██████████| 391/391 [00:24<00:00, 15.81it/s]  
+epoch=2 loss=0.0026431765872985125 batch_id=468: 100%|██████████| 469/469 [00:29<00:00, 15.83it/s]
 Evaluating model: Test accuracy
 
-Test set: Average loss: 0.0251, Accuracy: 59543/60000 (99.24%)
+Test set: Average loss: 0.0251, Accuracy: 9910/10000 (99.10%)
 
-epoch=4 loss=0.07110023498535156 batch_id=390: 100%|██████████| 391/391 [00:25<00:00, 15.59it/s]  
+epoch=3 loss=0.010564235039055347 batch_id=468: 100%|██████████| 469/469 [00:29<00:00, 15.69it/s] 
 Evaluating model: Test accuracy
 
-Test set: Average loss: 0.0227, Accuracy: 59565/60000 (99.28%)
+Test set: Average loss: 0.0241, Accuracy: 9910/10000 (99.10%)
 
-epoch=5 loss=0.03431084007024765 batch_id=390: 100%|██████████| 391/391 [00:25<00:00, 15.62it/s]  
+epoch=4 loss=0.025675460696220398 batch_id=468: 100%|██████████| 469/469 [00:29<00:00, 15.91it/s]  
 Evaluating model: Test accuracy
 
-Test set: Average loss: 0.0174, Accuracy: 59673/60000 (99.45%)
+Test set: Average loss: 0.0166, Accuracy: 9939/10000 (99.39%)
 
-epoch=6 loss=0.01150638610124588 batch_id=390: 100%|██████████| 391/391 [00:24<00:00, 15.97it/s]  
+epoch=5 loss=0.0029225926846265793 batch_id=468: 100%|██████████| 469/469 [00:29<00:00, 15.84it/s]
 Evaluating model: Test accuracy
 
-Test set: Average loss: 0.0218, Accuracy: 59607/60000 (99.34%)
+Test set: Average loss: 0.0149, Accuracy: 9948/10000 (99.48%)
 
-epoch=7 loss=0.0026571291964501143 batch_id=390: 100%|██████████| 391/391 [00:24<00:00, 16.08it/s] 
+epoch=6 loss=0.05393640697002411 batch_id=468: 100%|██████████| 469/469 [00:29<00:00, 16.13it/s]   
 Evaluating model: Test accuracy
 
-Test set: Average loss: 0.0129, Accuracy: 59779/60000 (99.63%)
+Test set: Average loss: 0.0137, Accuracy: 9951/10000 (99.51%)
 
-epoch=8 loss=0.006700292229652405 batch_id=390: 100%|██████████| 391/391 [00:24<00:00, 16.05it/s]  
+epoch=7 loss=0.0015578469028696418 batch_id=468: 100%|██████████| 469/469 [00:28<00:00, 16.17it/s] 
 Evaluating model: Test accuracy
 
-Test set: Average loss: 0.0144, Accuracy: 59736/60000 (99.56%)
+Test set: Average loss: 0.0159, Accuracy: 9946/10000 (99.46%)
 
-epoch=9 loss=0.0030945241451263428 batch_id=390: 100%|██████████| 391/391 [00:24<00:00, 15.93it/s] 
+epoch=8 loss=0.0068022808991372585 batch_id=468: 100%|██████████| 469/469 [00:29<00:00, 15.93it/s] 
 Evaluating model: Test accuracy
 
-Test set: Average loss: 0.0189, Accuracy: 59664/60000 (99.44%)
+Test set: Average loss: 0.0151, Accuracy: 9952/10000 (99.52%)
 
-epoch=10 loss=0.10154619067907333 batch_id=390: 100%|██████████| 391/391 [00:24<00:00, 16.02it/s]   
+epoch=9 loss=0.0005414550541900098 batch_id=468: 100%|██████████| 469/469 [00:29<00:00, 15.81it/s] 
 Evaluating model: Test accuracy
 
-Test set: Average loss: 0.0157, Accuracy: 59732/60000 (99.55%)
+Test set: Average loss: 0.0085, Accuracy: 9971/10000 (99.71%)
 
-epoch=11 loss=0.057716239243745804 batch_id=390: 100%|██████████| 391/391 [00:24<00:00, 16.06it/s]  
+epoch=10 loss=0.0169388260692358 batch_id=468: 100%|██████████| 469/469 [00:29<00:00, 16.13it/s]    
 Evaluating model: Test accuracy
 
-Test set: Average loss: 0.0108, Accuracy: 59845/60000 (99.74%)
+Test set: Average loss: 0.0138, Accuracy: 9944/10000 (99.44%)
 
-epoch=12 loss=0.01438748650252819 batch_id=390: 100%|██████████| 391/391 [00:24<00:00, 16.04it/s]   
+epoch=11 loss=0.02039267309010029 batch_id=468: 100%|██████████| 469/469 [00:29<00:00, 15.89it/s]   
 Evaluating model: Test accuracy
 
-Test set: Average loss: 0.0190, Accuracy: 59669/60000 (99.45%)
+Test set: Average loss: 0.0067, Accuracy: 9977/10000 (99.77%)
 
-epoch=13 loss=0.009068877436220646 batch_id=390: 100%|██████████| 391/391 [00:24<00:00, 15.78it/s]  
+epoch=12 loss=0.0008886688738130033 batch_id=468: 100%|██████████| 469/469 [00:29<00:00, 15.69it/s] 
 Evaluating model: Test accuracy
 
-Test set: Average loss: 0.0126, Accuracy: 59817/60000 (99.69%)
+Test set: Average loss: 0.0100, Accuracy: 9961/10000 (99.61%)
 
-epoch=14 loss=0.0006239829235710204 batch_id=390: 100%|██████████| 391/391 [00:26<00:00, 14.97it/s] 
+epoch=13 loss=0.002259073080495 batch_id=468: 100%|██████████| 469/469 [00:29<00:00, 15.99it/s]     
 Evaluating model: Test accuracy
 
-Test set: Average loss: 0.0130, Accuracy: 59766/60000 (99.61%)
+Test set: Average loss: 0.0082, Accuracy: 9971/10000 (99.71%)
 
-epoch=15 loss=0.05126728489995003 batch_id=390: 100%|██████████| 391/391 [00:24<00:00, 15.92it/s]   
+epoch=14 loss=0.00964026153087616 batch_id=468: 100%|██████████| 469/469 [00:29<00:00, 16.01it/s]   
 Evaluating model: Test accuracy
 
-Test set: Average loss: 0.0144, Accuracy: 59762/60000 (99.60%)
+Test set: Average loss: 0.0091, Accuracy: 9966/10000 (99.66%)
 
-epoch=16 loss=0.029997151345014572 batch_id=390: 100%|██████████| 391/391 [00:24<00:00, 16.02it/s]  
+epoch=15 loss=0.00027339570806361735 batch_id=468: 100%|██████████| 469/469 [00:29<00:00, 16.05it/s]
 Evaluating model: Test accuracy
 
-Test set: Average loss: 0.0157, Accuracy: 59724/60000 (99.54%)
+Test set: Average loss: 0.0076, Accuracy: 9980/10000 (99.80%)
 
-epoch=17 loss=0.013998043723404408 batch_id=390: 100%|██████████| 391/391 [00:24<00:00, 16.04it/s]  
+epoch=16 loss=0.0003780572733376175 batch_id=468: 100%|██████████| 469/469 [00:29<00:00, 16.03it/s] 
 Evaluating model: Test accuracy
 
-Test set: Average loss: 0.0119, Accuracy: 59811/60000 (99.69%)
+Test set: Average loss: 0.0063, Accuracy: 9977/10000 (99.77%)
 
-epoch=18 loss=0.055665694177150726 batch_id=390: 100%|██████████| 391/391 [00:24<00:00, 16.04it/s]  
+epoch=17 loss=0.011560574173927307 batch_id=468: 100%|██████████| 469/469 [00:29<00:00, 16.06it/s]  
 Evaluating model: Test accuracy
 
-Test set: Average loss: 0.0128, Accuracy: 59809/60000 (99.68%)
+Test set: Average loss: 0.0089, Accuracy: 9972/10000 (99.72%)
 
-epoch=19 loss=0.000490246107801795 batch_id=390: 100%|██████████| 391/391 [00:24<00:00, 15.97it/s]  
+epoch=18 loss=0.0005756766768172383 batch_id=468: 100%|██████████| 469/469 [00:29<00:00, 16.09it/s] 
 Evaluating model: Test accuracy
 
-Test set: Average loss: 0.0082, Accuracy: 59902/60000 (99.84%)
+Test set: Average loss: 0.0072, Accuracy: 9979/10000 (99.79%)
+
+epoch=19 loss=4.747032289742492e-05 batch_id=468: 100%|██████████| 469/469 [00:29<00:00, 16.09it/s] 
+Evaluating model: Test accuracy
+
+Test set: Average loss: 0.0114, Accuracy: 9959/10000 (99.59%)
