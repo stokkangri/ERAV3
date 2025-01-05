@@ -24,15 +24,17 @@
 1. Model params - 179,904
 2. Optimizer - SGD
 3. Variable LR - StepLR
-4. Epochs - 30
-5. Batch Size - 128 
-
-
+4. Epochs - 20
+5. Batch Size - 128
+6. Use of Depth-wise separable convolution (groups followed by 1x1 conv)
+7. Use of dilated kernel (dilation=2)
+8. Use of GAP
+9. Use of FC layer.
 
 **Results**
-1. Model with Batch Norm
-    - Train Accuracy - 79.12%
-    - Test Accuracy - 79.78%
+1. 85% accuracy with <200K parameters  
+    - Train Accuracy - 85.41%
+    - Test Accuracy - 85.48%
     - Accuracy/Loss plot - ![kkdm](./training_history.png)
 
 ---
