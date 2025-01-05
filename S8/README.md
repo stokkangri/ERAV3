@@ -33,7 +33,6 @@
 1. Model with Batch Norm
     - Train Accuracy - 79.12%
     - Test Accuracy - 79.78%
-    - Accuracy/Loss plot - ![kkdm](./images/BatchNorm_Accplot.png)
-    - Misclassifications plot - ![kkdm](./images/BatchNorm_Misclassified.png)
+    - Accuracy/Loss plot - ![kkdm](./training_history.png)
 
 ---
