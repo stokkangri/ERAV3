@@ -67,6 +67,7 @@ A:
 A greater 
 
 **S15_smolm2_deepseek.ipynb training log:**
+
 W0226 22:12:58.266887 107630 site-packages/torch/_dynamo/variables/tensor.py:776] [0/0] Graph break from `Tensor.item()`, consider setting:
 W0226 22:12:58.266887 107630 site-packages/torch/_dynamo/variables/tensor.py:776] [0/0]     torch._dynamo.config.capture_scalar_outputs = True
 W0226 22:12:58.266887 107630 site-packages/torch/_dynamo/variables/tensor.py:776] [0/0] or:
@@ -10208,3 +10209,5 @@ Prediction at step 10000:
 DU 
 
 Checkpoint saved to llm_checkpoint.pt
+
+**End of 10000 steps of training.**
