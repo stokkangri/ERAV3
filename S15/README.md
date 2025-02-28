@@ -1,6 +1,6 @@
-Smollm2-135M model updated to incorporate DeepSeek MLHA, MoE and loss-less load balancing.
+**Smollm2-135M model updated to incorporate DeepSeek MLHA, MoE and loss-less load balancing.**
 
-Parameters:
+**Parameters:**
     hidden_size: int = 768  # matches n_embd in S13
     num_attention_heads: int = 12
     num_key_value_heads: int = 3  # New: uses grouped-query attention
@@ -32,11 +32,11 @@ Parameters:
     router_aux_loss_coef: float = 0.001
 
 
-10,000 Steps of training.
-Loss after 10,000 steps: 3.28
+**10,000 Steps of training.**
+**Loss after 10,000 steps:** 3.28
 step9999 | loss: 3.2847862243652344 | dt: 548.65ms | tok/sec:  14931.32
 
-5 Sample outputs:
+**5 Sample outputs:**
 Prediction output 1: 
  : This is a fixed text used for prediction.
 IET:
@@ -62,7 +62,7 @@ Why, I
 A:
 A greater 
 
-
+**S15_smolm2_deepseek.ipynb training log:**
 W0226 22:12:58.266887 107630 site-packages/torch/_dynamo/variables/tensor.py:776] [0/0] Graph break from `Tensor.item()`, consider setting:
 W0226 22:12:58.266887 107630 site-packages/torch/_dynamo/variables/tensor.py:776] [0/0]     torch._dynamo.config.capture_scalar_outputs = True
 W0226 22:12:58.266887 107630 site-packages/torch/_dynamo/variables/tensor.py:776] [0/0] or:
