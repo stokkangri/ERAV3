@@ -1,6 +1,7 @@
 **Smollm2-135M model updated to incorporate DeepSeek MLHA, MoE and loss-less load balancing.**
 
 **Parameters:**
+
     hidden_size: int = 768  # matches n_embd in S13
     num_attention_heads: int = 12
     num_key_value_heads: int = 3  # New: uses grouped-query attention
