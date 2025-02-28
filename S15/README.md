@@ -34,10 +34,13 @@
 
 
 **10,000 Steps of training.**
-**Loss after 10,000 steps:** 3.28
+
+**Loss after 10,000 steps:** : 3.28
+
 step9999 | loss: 3.2847862243652344 | dt: 548.65ms | tok/sec:  14931.32
 
 **5 Sample outputs:**
+
 Prediction output 1: 
  : This is a fixed text used for prediction.
 IET:
